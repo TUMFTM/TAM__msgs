@@ -1,0 +1,17 @@
+std_msgs/Header header
+uint32 raceline_id
+string raceline_type
+bool pitlane
+float64[] s_m
+float64[] sdot_mps
+float64[] sddot_mps2
+float64[] n_m
+float64[] ndot_mps
+float64[] nddot_mps2
+float64[] v_mps
+float64[] chi_rad
+float64[] ax_mps2
+float64[] ay_mps2
+float64[] x_m
+float64[] y_m
+float64[] z_m

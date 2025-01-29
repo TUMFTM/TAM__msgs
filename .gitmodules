@@ -1,0 +1,3 @@
+[submodule "dependencies/autoware_auto_msgs"]
+	path = dependencies/autoware_auto_msgs
+	url = https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
