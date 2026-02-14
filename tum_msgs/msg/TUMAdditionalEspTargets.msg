@@ -1,0 +1,7 @@
+std_msgs/Header header
+float32 ay_request
+float32 yaw_rate_request
+float32 slip_angle_request
+bool ay_request_set
+bool yaw_rate_request_set
+bool slip_angle_request_set

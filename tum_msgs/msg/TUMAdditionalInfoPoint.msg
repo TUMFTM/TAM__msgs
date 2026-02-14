@@ -1,5 +1,17 @@
 float64 s_global_m
 float64 s_local_m
+float64 n_m
 float64 kappa_1pm
 float64 lap_cnt
 float64 time_s
+float64 omega_z_radps
+float64 v_mps
+float64 s_dot_mps
+float64 ax_hat_mps2
+float64 ay_hat_mps2
+float64 ax_tilde_mps2
+float64 ay_tilde_mps2
+float64 g_tilde_mps2
+float64 tire_util
+int64 track_index
+int64 local_index

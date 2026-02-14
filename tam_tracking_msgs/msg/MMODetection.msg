@@ -1,0 +1,3 @@
+builtin_interfaces/Time stamp
+autoware_auto_perception_msgs/DetectedObject object
+uint8 sensor_type

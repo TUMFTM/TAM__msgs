@@ -1,0 +1,9 @@
+builtin_interfaces/Time stamp
+uint64 iteration
+MMODetection[] matched_detections
+MMODetection[] unmatched_detections
+MMORejection[] discarded_detections
+MMOObjectState[] object_states
+MMOFilterUpdate[] updates
+nav_msgs/Odometry ego_odometry
+float32 latency_ms

@@ -10,19 +10,22 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(autoware_auto_perception_msgs REQUIRED)
+find_package(autoware_auto_control_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
-
 
 # Get all msg files
 file(GLOB msgFiles RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/msg/*.msg)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  ${srvFiles}
   ${msgFiles}
   ${DEPRECATED_IDL_FILES}
   DEPENDENCIES builtin_interfaces
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
   DEPENDENCIES autoware_auto_perception_msgs
+  DEPENDENCIES autoware_auto_control_msgs
  )
 
+ament_export_dependencies(rosidl_default_runtime)
 ament_package()

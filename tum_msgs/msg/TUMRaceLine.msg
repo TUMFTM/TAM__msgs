@@ -15,3 +15,6 @@ float64[] ay_mps2
 float64[] x_m
 float64[] y_m
 float64[] z_m
+float64[] tire_util
+int64[] track_index
+int64[] local_index

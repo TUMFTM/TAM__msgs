@@ -1,0 +1,9 @@
+MMOFilterState old_state
+MMOFilterState new_state
+float32[] residuals
+float32[] measurement
+float32[] correction
+float32[] k
+float32[] s
+float32[] r
+uint8 sensor_type

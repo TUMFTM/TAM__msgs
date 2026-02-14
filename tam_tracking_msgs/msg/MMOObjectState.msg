@@ -1,0 +1,7 @@
+builtin_interfaces/Time stamp
+MMOFilterState[] states
+int32 death_counter
+uint32 detection_count
+unique_identifier_msgs/UUID object_id
+bool published
+autoware_auto_perception_msgs/PredictedPath last_prediction
