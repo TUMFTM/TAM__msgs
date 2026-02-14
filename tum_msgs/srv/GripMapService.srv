@@ -1,0 +1,4 @@
+# GripMapService.srv
+# No data is required in the request.
+---
+TUMGripMap grip_map

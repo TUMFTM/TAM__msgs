@@ -1,0 +1,2 @@
+builtin_interfaces/Time stamp
+autoware_auto_control_msgs/LongitudinalCommand[] points

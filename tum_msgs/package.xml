@@ -9,12 +9,17 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <depend>rosidl_default_generators</depend>
   <depend>std_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>autoware_auto_perception_msgs</depend>
+  <depend>autoware_auto_control_msgs</depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
 
   <member_of_group>rosidl_interface_packages</member_of_group>
 
-  <export><build_type>ament_cmake</build_type></export>
+  <export>
+    <build_type>ament_cmake</build_type>
+    <member_of_group>rosidl_interface_packages</member_of_group>
+  </export>
 </package>
