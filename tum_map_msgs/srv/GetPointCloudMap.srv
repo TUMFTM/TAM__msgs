@@ -1,0 +1,16 @@
+# Request
+
+# Header
+std_msgs/Header header
+
+float32 voxel_size
+
+---
+
+# Response
+
+# Whether the request is fullfilled
+bool success
+
+# PointCloudMap information
+PointCloudMapFile map
